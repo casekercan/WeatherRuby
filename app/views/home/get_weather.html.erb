@@ -1,0 +1,8 @@
+
+<h1> Current Weather for <%=params[:city]%> <%=params[:state]%>, <%=params[:zip]%>  </h1>
+<p><strong>Currently:</strong> <%= @weather %></p>
+<p><strong>Temperature:</strong> <%= @temperature %></p>
+
+
+<%= button_to "New Location", root_path %>
+
